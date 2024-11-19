@@ -1,64 +1,69 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-}
-
-header {
-    text-align: center;
-    background-color: #f1f1f1;
-    padding: 20px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px;
-    color: #333;
-}
-
 table {
-    width: 90%;
-    margin: 20px auto;
+    width: 100%;
     border-collapse: collapse;
-    background-color: #fff;
+    margin: 20px 0;
 }
 
-table, th, td {
-    border: 1px solid #ddd;
-}
-
-th, td {
+table th, table td {
+    border: 2px solid black;
     text-align: center;
     padding: 10px;
 }
 
-thead th {
-    background-color: #6c757d;
-    color: white;
+table th {
+    background-color: #d3d3d3;
+    color: black;
 }
 
-.horari .pati {
-    background-color: #e9ecef;
+table td {
+    background-color: #f7f7f7;
+    color: black;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+
+table td:first-child {
+    font-weight: bold;
+    background-color: #cccccc;
+}
+
+table td:last-child {
     font-style: italic;
+}
+
+table .pati {
+    background-color: #ffe4b5;
     font-weight: bold;
 }
 
-.mp04 { background-color: #ffcccb; }
-.mp06 { background-color: #d6c2ff; }
-.mp07 { background-color: #ffebcc; }
-.mp08 { background-color: #ccffcc; }
-.mp10 { background-color: #cce5ff; }
-.mp12 { background-color: #ffffcc; }
-.t { background-color: #d3d3d3; }
-
-.moduls {
-    margin: 20px auto;
-    width: 90%;
-    border: 1px solid #ddd;
+table .mp04 {
+    background-color: #ffcccc;
+    color: black;
 }
 
-.moduls th {
-    background-color: #6c757d;
-    color: white;
+table .mp06 {
+    background-color: #ffeb99;
+    color: black;
+}
+
+table .mp07 {
+    background-color: #cce5ff;
+    color: black;
+}
+
+table .mp08 {
+    background-color: #d4edda;
+    color: black;
+}
+
+table .mp10 {
+    background-color: #f8d7da;
+    color: black;
+}
+
+table .mp12 {
+    background-color: #fff3cd;
+    color: black;
 }
